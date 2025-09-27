@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Shelar - AI Engineer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loader"></div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Sushant Shelar" onerror="this.src='https://via.placeholder.com/160x160/333/fff?text=SS'">
+                </div>
+                <h1 class="name">Sushant Shelar</h1>
+                <p class="title">AI Engineer & Machine Learning Specialist</p>
+            </div>
+
+            <div class="newsletter-section">
+                <div class="newsletter-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="newsletter-content">
+                    <span class="newsletter-label">SPECIALIZATION</span>
+                    <span class="newsletter-name">Generative AI</span>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span class="contact-label">EMAIL</span>
+                        <span class="contact-value">sushantshelar121@gmail.com</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <span class="contact-label">PHONE</span>
+                        <span class="contact-value">(979) 422-7607</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="contact-label">LOCATION</span>
+                        <span class="contact-value">West Bend, WI,<br>United States</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/shelar-sushant" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Sushant369/Sushant369" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sushantshelar121@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+19794227607" class="social-link"><i class="fas fa-phone"></i></a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Horizontal Navigation -->
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content Container -->
+            <div class="content-container">
+                <!-- About Section -->
+                <section id="about" class="content-section active">
+                    <h2 class="section-title">About Me</h2>
+                    
+                    <div class="about-content">
+                        <p style="text-align: justify; text-justify: inter-word;">Hi, I'm <strong>Sushant Shelar</strong>, an AI Engineer with over 5 years of experience in developing and deploying cutting-edge machine learning solutions. I recently graduated with my Master's in Computer Engineering with AI/ML specialization from Texas A&M University, and I'm passionate about transforming complex data challenges into intelligent, scalable solutions.</p>
+                        
+                        <p style="text-align: justify; text-justify: inter-word;">My expertise spans across <strong>Generative AI, Machine Learning, Deep Learning, and MLOps</strong>, with hands-on experience in technologies like GPT-4, BERT, PyTorch, TensorFlow, AWS, and Azure. I've successfully delivered AI solutions that have reduced costs by 60%, improved accuracy by 93%, and enhanced operational efficiency across various domains including insurance, fraud detection, and conversational AI.</p>
+                        
+                        <p style="text-align: justify; text-justify: inter-word;">From fine-tuning large language models like <strong>meta-llama-3-8b-instruct</strong> to building RAG-based intelligent agent systems, I enjoy tackling complex AI challenges. Whether it's optimizing LLM inference on H100 GPUs or developing physics-informed neural networks for autonomous vehicles, I'm driven by the potential of AI to solve real-world problems and create meaningful impact.</p>
+                    </div>
+
+                    <div class="chatbot-section">
+                        <h3>Ask SushantBot anything about me!</h3>
+                        <div class="chatbot-status">
+                            <span class="status-dot"></span>
+                            <span>AI Assistant Online</span>
+                        </div>
+                        <div class="bot-message">
+                            <i class="fas fa-robot"></i>
+                            <p>Hi! I'm Sushant's AI portfolio assistant. Ask me anything about his AI/ML expertise, experience with Generative AI, projects, or technical skills!</p>
+                        </div>
+                        <div class="chat-input-container">
+                            <input type="text" placeholder="Ask about my experience with GPT-4, BERT models, or AWS..." class="chat-input">
+                            <button class="send-button">Send</button>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                   
+                </section>
+
+                <!-- Education Section -->
+                <section id="education" class="content-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">Jan 2023 - May 2025</div>
+                                <h3 class="timeline-title">Master of Science in Computer Engineering, AI/ML</h3>
+                                <h4 class="timeline-subtitle">Texas A&M University, College Station, TX</h4>
+                                <p class="timeline-description">
+                                    <strong>GPA: 3.5/4.0</strong> | <strong>Graduated May 2025</strong><br>
+                                    <strong>Relevant Coursework:</strong> Machine Learning, Deep Learning, Scientific Machine Learning, Computer Vision, AI Robotics, Software Engineering, Operating Systems
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="content-section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">May 2025 - Present</div>
+                                <h3 class="timeline-title">Senior Software Engineer, Gen AI</h3>
+                                <h4 class="timeline-subtitle">Coforge Ltd, West Bend, WI</h4>
+                                <p class="timeline-description">
+                                    Working on AI-powered fraud detection system for insurance, utilizing anomaly detection and NLP to identify suspicious claims in real-time. Integrating external data sources to enhance risk assessment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">Sept 2024 - May 2025</div>
+                                <h3 class="timeline-title">Software Engineer Intern, Gen AI</h3>
+                                <h4 class="timeline-subtitle">Coforge Ltd, West Bend, WI</h4>
+                                <p class="timeline-description">
+                                    • Led development of <strong>GPT-4-based NER solution</strong>, leveraging Prompt Engineering, Blob Storage, Azure Functions & OCR, integrating with Power BI to <strong>reduce third-party data visualization costs by 60%</strong><br><br>
+                                    • Delivered AI agent for insurance client to analyze customer sentiment from post-claim interactions, leveraging <strong>GPT-4.0 and Azure AI Search's vector</strong> to provide CX teams with actionable feedback and <strong>reduce escalations by 40%</strong><br><br>
+                                    • Applied <strong>LIME & SHAP</strong> for text analytics to interpret & explain model predictions, ensuring transparency & trust
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">Jun 2024 - Aug 2024</div>
+                                <h3 class="timeline-title">AI Software Engineer Intern</h3>
+                                <h4 class="timeline-subtitle">Eve Communications, Remote, NY</h4>
+                                <p class="timeline-description">
+                                    • Fine-tuned <strong>'meta-llama-3-8b-instruct' with LoRA</strong> to boost NLP capabilities of Eve AI conversational product<br><br>
+                                    • Utilized <strong>Fully Sharded Data Parallel (FSDP)</strong> for distributed training on 4-GPU instance in AWS SageMaker, <strong>accelerating model training by 60%</strong><br><br>
+                                    • Optimized <strong>LLM inference system on H100 GPU using vLLM</strong> with PagedAttention and continuous batching, boosting throughput and cutting latency
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">Jan 2022 - Dec 2022</div>
+                                <h3 class="timeline-title">Senior Software Engineer, Machine Learning</h3>
+                                <h4 class="timeline-subtitle">Coforge Ltd, Mumbai, India</h4>
+                                <p class="timeline-description">
+                                    • Built <strong>BERT-based text classification model with PyTorch</strong> to assign support tickets to teams, <strong>achieving 93% F1 score</strong><br><br>
+                                    • Developed logistic regression models to predict quote requests and insurance policy purchases, enabling precise email targeting that <strong>boosted conversions by 43%</strong> and <strong>reduced unsubscribe rates by 35%</strong><br><br>
+                                    • Designed scalable ML workflows using <strong>PySpark on AWS EMR</strong>, enabling distributed processing for large datasets<br><br>
+                                    • Streamlined scalable ML workflows by leveraging <strong>Amazon EKS & Docker</strong> for containerization & orchestration
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-date">Aug 2019 - Jan 2022</div>
+                                <h3 class="timeline-title">Software Engineer, Machine Learning</h3>
+                                <h4 class="timeline-subtitle">Accenture Solutions, Mumbai, India</h4>
+                                <p class="timeline-description">
+                                    • Implemented automation of server monitoring reports using Python and SQL, <strong>saving 10 hours weekly</strong><br><br>
+                                    • Developed ML model for submission ranking in P&C insurance and integrated AI systems with Duck Creek App, increasing decision-making accuracy<br><br>
+                                    • Designed comprehensive visual reports in <strong>PowerBI</strong> to track KPIs for five departments, resulting in <strong>40% reduction in reporting errors</strong><br><br>
+                                    • Refined CRM integration through SQL scripts, <strong>reducing P3 incidents by 80 monthly</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <!-- Enhanced Projects Section with Repositioned Action Buttons -->
+                <section id="projects" class="content-section">
+                    <h2 class="section-title">Selected Projects</h2>
+                    <div class="projects-grid">
+                        <!-- Project Card 1 -->
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">Multi-AI RAG based Intelligent Agent System for Insurance</h3>
+                                <p class="project-description">
+                                    Developed advanced Retrieval-Augmented Generation pipeline using open-source embedding model gte-base-en-v1.5, Pinecone vector database, GPT-4, chain-of-thought reasoning, and LangChain, significantly improving efficiency of document retrieval for insurance applications.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">RAG</span>
+                                    <span class="tech-tag">GPT-4</span>
+                                    <span class="tech-tag">Pinecone</span>
+                                    <span class="tech-tag">LangChain</span>
+                                    <span class="tech-tag">Vector Embeddings</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <div class="project-action-left">
+                                    <a href="https://dct-forms-mate-faaff5c2e205.herokuapp.com/" target="_blank" class="project-btn demo-btn" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div>
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/Sushant369/RAG-Based-Duck-Creek-Example-Form-GPT" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 2 -->
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">AI-Powered Robotic Sorting System Using TensorFlow and ROS2</h3>
+                                <p class="project-description">
+                                    Developed comprehensive AI-powered robotic sorting system with TensorFlow Transfer Learning and ROS2, leveraging MobileNet SSD and EfficientNet D0 models on NVIDIA Jetson Nano for real-time object detection and automated sorting operations.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">ROS2</span>
+                                    <span class="tech-tag">MobileNet SSD</span>
+                                    <span class="tech-tag">EfficientNet</span>
+                                    <span class="tech-tag">NVIDIA Jetson</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <div class="project-action-left">
+                                    <a href="https://drive.google.com/drive/u/0/folders/10_DXrqKCDV35BR7edAcSN53HVKZkvNYM" target="_blank" class="project-btn demo-btn" title="Video Demo">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div>
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/Sushant369/ROS2-based-Color-Block-Sorting-with-Universal-Robot-UR3e-Using-TensorFlow-Transfer-Learning" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 3 -->
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">GPT-4 Based NER Solution for Insurance</h3>
+                                <p class="project-description">
+                                    Led development of sophisticated Named Entity Recognition solution leveraging GPT-4, Prompt Engineering, Azure Blob Storage, Azure Functions, and OCR capabilities, integrated with Power BI for comprehensive data visualization and analytics, reducing costs by 60%.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">GPT-4</span>
+                                    <span class="tech-tag">NER</span>
+                                    <span class="tech-tag">Azure Functions</span>
+                                    <span class="tech-tag">OCR</span>
+                                    <span class="tech-tag">Power BI</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <div class="project-action-left">
+                                    <a href="https://your-demo-link.com" target="_blank" class="project-btn demo-btn" title="Dashboard Demo">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div>
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/yourusername/gpt4-ner-solution" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 4 -->
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">BERT-based Support Ticket Classification</h3>
+                                <p class="project-description">
+                                    Built high-performance BERT-based text classification model using PyTorch for automated support ticket routing and assignment to appropriate teams, achieving exceptional 93% F1 score for production deployment.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">BERT</span>
+                                    <span class="tech-tag">PyTorch</span>
+                                    <span class="tech-tag">Text Classification</span>
+                                    <span class="tech-tag">NLP</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <div class="project-action-left">
+                                    <a href="https://your-demo-link.com" target="_blank" class="project-btn demo-btn" title="Interactive Demo">
+                                        <i class="fas fa-desktop"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div>
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/yourusername/bert-ticket-classification" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">Semantic Clustering of Amazon Product Reviews for Summarization</h3>
+                                <p class="project-description">
+                                    Developed advanced semantic clustering system for Amazon product reviews using BAAI/bge-small-en-v1.5 embeddings, K-Means clustering with Elbow Method optimization, and LLaMA 4B for automated summarization. Implemented intelligent review grouping and insights generation to efficiently analyze customer feedback patterns.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Text Embeddings</span>
+                                    <span class="tech-tag">K-Means Clustering</span>
+                                    <span class="tech-tag">LLaMA 4B</span>
+                                    <span class="tech-tag">Hugging Face</span>
+                                    <span class="tech-tag">Scikit-learn</span>
+                                    <span class="tech-tag">NLP</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <!-- <div class="project-action-left">
+                                    <a href="https://your-demo-link.com" target="_blank" class="project-btn demo-btn" title="Interactive Demo">
+                                        <i class="fas fa-chart-scatter"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div> -->
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/Sushant369/Semantic-Clustering-of-Amazon-Product-Reviews" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">GPU-Accelerated Predictive Modeling with NVIDIA RAPIDS</h3>
+                                <p class="project-description">
+                                    High-performance machine learning solution leveraging NVIDIA RAPIDS suite (cuDF, cuML) on A100 GPUs to process 8.52GB dataset containing 11 million samples with 106 features. Achieved optimal runtime of 1 minute 55 seconds with advanced target encoding and GPU-accelerated hyperparameter tuning, ranking top 8 at ODSC West 2024.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">RAPIDS cuDF</span>
+                                    <span class="tech-tag">RAPIDS cuML</span>
+                                    <span class="tech-tag">NVIDIA A100</span>
+                                    <span class="tech-tag">CUDA</span>
+                                    <span class="tech-tag">Big Data</span>
+                                    <span class="tech-tag">GPU Computing</span>
+                                </div>
+                                
+                                <!-- Demo Button (Left Bottom) -->
+                                <!-- <div class="project-action-left">
+                                    <a href="https://your-notebook-demo.com" target="_blank" class="project-btn demo-btn" title="Performance Demo">
+                                        <i class="fas fa-rocket"></i>
+                                        <span>Demo</span>
+                                    </a>
+                                </div> -->
+                                
+                                <!-- GitHub Button (Right Bottom) -->
+                                <div class="project-action-right">
+                                    <a href="https://github.com/Sushant369/NVIDIA-Hackathon-Accelerated-Predictive-Modeling" target="_blank" class="project-btn github-btn" title="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </section>
+
+
+
+                <!-- Contact Section -->
+                <section id="contact" class="content-section">
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="AI/ML Opportunity, Collaboration, etc." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your AI/ML project or opportunity..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </div>
+                    
+                    <div style="margin-top: 3rem; text-align: center; background: var(--secondary-bg); padding: 2rem; border-radius: 16px; border: 1px solid var(--border-primary);">
+                        <h3 style="color: var(--text-primary); margin-bottom: 1rem;">Let's Connect</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">I'm always excited to discuss AI/ML opportunities, research collaborations, or innovative projects in Generative AI and Machine Learning!</p>
+                        
+                        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                            <a href="mailto:sushantshelar121@gmail.com" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+                                <i class="fas fa-envelope" style="color: var(--accent-primary);"></i>
+                                <span>sushantshelar121@gmail.com</span>
+                            </a>
+                            <a href="tel:+19794227607" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+                                <i class="fas fa-phone" style="color: var(--accent-primary);"></i>
+                                <span>(979) 422-7607</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Resume Section -->
+                <section id="resume" class="content-section">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="about-content">
+                        <div style="text-align: center;">
+                            <h3 style="color: var(--text-primary); margin-bottom: 1rem;">Download My Resume</h3>
+                            <p style="margin-bottom: 2rem;">Get a comprehensive overview of my 5+ years of experience in AI/ML, including expertise in Generative AI, deep learning models, cloud platforms, and successful project deliveries.</p>
+                            
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                                <div style="background: var(--tertiary-bg); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-primary);">
+                                    <i class="fas fa-graduation-cap" style="color: var(--accent-primary); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                                    <div>MS in Computer Engineering, AI/ML</div>
+                                </div>
+                                <div style="background: var(--tertiary-bg); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-primary);">
+                                    <i class="fas fa-briefcase" style="color: var(--accent-primary); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                                    <div>5+ Years Experience</div>
+                                </div>
+                                <div style="background: var(--tertiary-bg); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-primary);">
+                                    <i class="fas fa-robot" style="color: var(--accent-primary); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                                    <div>Generative AI Specialist</div>
+                                </div>
+                                <div style="background: var(--tertiary-bg); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-primary);">
+                                    <i class="fas fa-award" style="color: var(--accent-primary); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                                    <div>Published Research & Certifications</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                                <button class="submit-button" style="padding: 1rem 2rem; font-size: 1rem;">
+                                    <i class="fas fa-download"></i>
+                                    Download PDF Resume
+                                </button>
+                                <a href="mailto:sushantshelar121@gmail.com?subject=AI/ML Opportunity" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: transparent; color: var(--accent-primary); text-decoration: none; border: 2px solid var(--accent-primary); border-radius: 10px; font-weight: 600; font-size: 1rem; transition: all 0.3s ease;">
+                                    <i class="fas fa-envelope"></i>
+                                    Contact for Opportunities
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Publications & Achievements -->
+                    <div style="margin-top: 3rem;">
+                        <h3 style="color: var(--text-primary); margin-bottom: 2rem; text-align: center;">Publications & Achievements</h3>
+                        
+                        <div style="display: grid; gap: 2rem;">
+                            <div style="background: var(--secondary-bg); border: 1px solid var(--border-primary); border-radius: 16px; padding: 2rem; display: flex; gap: 1.5rem;">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-bg); font-size: 1.5rem; flex-shrink: 0;">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 style="color: var(--accent-primary); font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">Research Publication</h4>
+                                    <h5 style="color: var(--text-primary); font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">A Physics-Informed Neural Networks Approach for Learning Vehicle Dynamics in High-Speed Autonomy</h5>
+                                    <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">Co-authored research paper presented at the prestigious AIAA SciTech Forum, Florida, USA (January 2025). The work focuses on applying Physics-Informed Neural Networks to autonomous vehicle dynamics.</p>
+                                    <div style="display: flex; gap: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                                        <span>AIAA SciTech Forum 2025</span>
+                                        <span>Florida, USA</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background: var(--secondary-bg); border: 1px solid var(--border-primary); border-radius: 16px; padding: 2rem; display: flex; gap: 1.5rem;">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-bg); font-size: 1.5rem; flex-shrink: 0;">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div>
+                                    <h4 style="color: var(--accent-primary); font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">Competition Achievement</h4>
+                                    <h5 style="color: var(--text-primary); font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">8th Place - NVIDIA Spooktacular Data Science Competition</h5>
+                                    <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">Led team to achieve 8th place finish in the highly competitive NVIDIA Spooktacular Data Science Competition at ODSC West 2024 in San Francisco, driving development of high-performance model on 9 GB dataset.</p>
+                                    <div style="display: flex; gap: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                                        <span>ODSC West 2024</span>
+                                        <span>San Francisco, CA</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background: var(--secondary-bg); border: 1px solid var(--border-primary); border-radius: 16px; padding: 2rem; display: flex; gap: 1.5rem;">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-bg); font-size: 1.5rem; flex-shrink: 0;">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div>
+                                    <h4 style="color: var(--accent-primary); font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">Professional Certification</h4>
+                                    <h5 style="color: var(--text-primary); font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">Microsoft Certified: Azure AI Engineer Associate</h5>
+                                    <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">Achieved Microsoft Azure AI Engineer Associate certification, demonstrating expertise in designing and implementing AI solutions on Microsoft Azure platform.</p>
+                                    <div style="display: flex; gap: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                                        <span>Microsoft</span>
+                                        <span>Professional Certification</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
