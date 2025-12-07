@@ -435,7 +435,7 @@ body {
 .status-dot {
     width: 10px;
     height: 10px;
-    background: #10b981;
+    background: #eb0a0a;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
@@ -1127,3 +1127,80 @@ body {
 .project-btn[title]:hover::after {
     display: none; /* Temporarily disable tooltips */
 }
+
+/* Skill tag css */
+.timeline-skills {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: var(--tertiary-bg);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-primary);
+    white-space: nowrap;
+    transition: all 0.25s ease;
+}
+
+.skill-tag:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transform: translateY(-1px);
+}
+
+
+/* Coursework CSS */
+
+/* ===== Coursework Styling ===== */
+
+.coursework-container {
+    margin-top: 1rem;
+}
+
+.coursework-label {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+}
+
+.coursework-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.course-tag {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background: var(--tertiary-bg);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-primary);
+    white-space: nowrap;
+    transition: all 0.25s ease;
+}
+
+.course-tag:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
