@@ -435,7 +435,7 @@ body {
 .status-dot {
     width: 10px;
     height: 10px;
-    background: #eb0a0a;
+    background: red;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
